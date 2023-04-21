@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/recoil-to-do/static/js/main.c752fcfa.js",
+    "main.js": "/recoil-to-do/static/js/main.c0ab005a.js",
     "static/js/787.0829d0a3.chunk.js": "/recoil-to-do/static/js/787.0829d0a3.chunk.js",
     "index.html": "/recoil-to-do/index.html",
-    "main.c752fcfa.js.map": "/recoil-to-do/static/js/main.c752fcfa.js.map",
+    "main.c0ab005a.js.map": "/recoil-to-do/static/js/main.c0ab005a.js.map",
     "787.0829d0a3.chunk.js.map": "/recoil-to-do/static/js/787.0829d0a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.c752fcfa.js"
+    "static/js/main.c0ab005a.js"
   ]
 }
