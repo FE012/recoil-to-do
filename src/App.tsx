@@ -62,7 +62,7 @@ table {
 }
 body {
   font-family: 'Cafe24SsurroundAir';
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
   background-color:${(props) => props.theme.bgColor};
   color:${(props) => props.theme.textColor};

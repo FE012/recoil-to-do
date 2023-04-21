@@ -17,7 +17,7 @@ const Form = styled.form`
     text-align: center;
   }
   input::placeholder {
-    font-size: 20px;
+    font-size: 16px;
   }
   button {
     font-family: "Cafe24SsurroundAir";

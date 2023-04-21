@@ -20,9 +20,6 @@ const Form = styled.form`
     height: 30px;
     margin-right: 5px;
   }
-  input::placeholder {
-    font-size: 15px;
-  }
   button {
     background-color: #769fcd;
     color: #deecfc;
