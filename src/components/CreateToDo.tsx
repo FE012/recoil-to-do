@@ -6,7 +6,7 @@ import { categoryState, toDoState } from "../atoms";
 const Form = styled.form`
   margin-bottom: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   input {
     font-family: "Cafe24SsurroundAir";
     width: 85%;

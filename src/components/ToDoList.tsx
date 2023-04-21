@@ -51,10 +51,10 @@ const Container = styled.div`
       max-width: 100px;
     }
   }
-`;
-
-const CategoryTitle = styled.div`
-  max-width: 300px;
+  main {
+    width: 80vw;
+    max-width: 440px;
+  }
 `;
 
 function ToDoList() {
@@ -87,7 +87,6 @@ function ToDoList() {
     setCategory(event.currentTarget.value as any);
   };
 
-  console.log(toDos);
   //모든 validation을 통과해야 작동되는 함수 -> CreateToDo.tsx로 옮김
   // const handleValid = ({ toDo }: IForm) => {
   //   // console.log("add to do", data.toDo);
@@ -114,7 +113,6 @@ function ToDoList() {
       </header>
       <main>
         <CreateToDo />
-        {/* <CategoryTitle>{category}</CategoryTitle> */}
         <ul>
           {toDos?.map((toDo) => (
             <ToDo key={toDo.id} {...toDo} />
