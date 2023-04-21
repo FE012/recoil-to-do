@@ -8,6 +8,7 @@ import { faListUl } from "@fortawesome/free-solid-svg-icons";
 import { faTrashCan } from "@fortawesome/free-solid-svg-icons";
 
 const Li = styled.li`
+  width: 380px;
   border: 1px solid #769fcd;
   border-radius: 5px;
   margin-bottom: 15px;

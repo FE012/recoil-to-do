@@ -4,13 +4,12 @@ import styled from "styled-components";
 import { categoryState, toDoState } from "../atoms";
 
 const Form = styled.form`
-  width: 440px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
   input {
     font-family: "Cafe24SsurroundAir";
-    width: 90%;
+    width: 85%;
     height: 45px;
     border: none;
     border-radius: 5px;
@@ -26,7 +25,7 @@ const Form = styled.form`
     color: #deecfc;
     border: none;
     border-radius: 5px;
-    width: 10%;
+    width: 15%;
     height: 45px;
   }
 `;
