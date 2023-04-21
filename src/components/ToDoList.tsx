@@ -31,7 +31,6 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 480px;
   padding: 0px 20px;
   h1 {
     font-size: 30px;
@@ -49,7 +48,6 @@ const Container = styled.div`
       border: none;
       border-radius: 5px;
       height: 30px;
-      min-width: 100px;
       max-width: 100px;
     }
   }
@@ -114,13 +112,14 @@ function ToDoList() {
         </select>
         <CreateCategory />
       </header>
-
       <main>
         <CreateToDo />
         {/* <CategoryTitle>{category}</CategoryTitle> */}
-        {toDos?.map((toDo) => (
-          <ToDo key={toDo.id} {...toDo} />
-        ))}
+        <ul>
+          {toDos?.map((toDo) => (
+            <ToDo key={toDo.id} {...toDo} />
+          ))}
+        </ul>
         {/* <h2>To Do</h2>
       <ul>
         {toDo.map((toDo) => (
