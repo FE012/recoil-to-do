@@ -52,7 +52,7 @@ const Container = styled.div`
     }
   }
   main {
-    width: 80vw;
+    width: 85vw;
     max-width: 440px;
   }
 `;
