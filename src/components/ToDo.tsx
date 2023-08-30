@@ -41,6 +41,7 @@ const TextArea = styled.textarea`
   background-color: ${(props) => props.theme.bgColor};
   outline: none;
   transition: width 0.2s ease-in-out; /* Smooth transition effect */
+  font-size: 16px;
 `;
 
 function ToDo({ text, category, id }: IToDo) {
