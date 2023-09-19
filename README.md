@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+## recoil-to-do
+recoil을 이용해 만든 to-do-list입니다. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 배포 링크
+https://fe012.github.io/recoil-to-do
 
-## Available Scripts
+## 기술 스택
+React, TypeScript, Recoil, Styled-components
 
-In the project directory, you can run:
+## 개발 환경 세팅
+```bash
+npm install
+npm start
+```
 
-### `npm start`
+## 기능 목록 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### crud 기능
+![recoil-todo 수정기능](https://github.com/FE012/recoil-to-do/assets/111476477/effa5fe0-6f77-4317-a205-4727cbdc8d18)
+* todo 추가,읽기,수정,삭제 기능이 가능합니다.
+  
+### 카테고리 이동 기능
+![recoil todo- 카테고리 이동](https://github.com/FE012/recoil-to-do/assets/111476477/2dc28d0a-6edc-4e81-ad34-d194f19a2940)
+* 메모를 원하는 카테고리에 이동할 수 있습니다.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 카테고리 추가 기능
+![recoil todo - 카테고리 추가 기능](https://github.com/FE012/recoil-to-do/assets/111476477/5eefe8f5-e2a9-487f-b7a3-525b398baa07)
+* 원하는 카테고리를 추가할 수 있습니다.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
